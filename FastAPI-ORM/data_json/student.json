@@ -1,0 +1,6 @@
+[
+  {"sno": 2024001, "name": "小明", "pwd": "pwd123", "clas_id": 1},
+  {"sno": 2024002, "name": "小红", "pwd": "pwd456", "clas_id": 1},
+  {"sno": 2024003, "name": "小刚", "pwd": "pwd789", "clas_id": 2},
+  {"sno": 2024004, "name": "小美", "pwd": "pwd000", "clas_id": 3}
+]

@@ -1,0 +1,1 @@
+from .reg_urls import reg

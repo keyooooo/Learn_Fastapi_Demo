@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "Python异步编程", "teacher_id": 1},
+  {"id": 2, "name": "FastAPI框架实战", "teacher_id": 1},
+  {"id": 3, "name": "机器学习基础", "teacher_id": 2},
+  {"id": 4, "name": "数据库系统原理", "teacher_id": 3}
+]
