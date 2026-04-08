@@ -20,10 +20,14 @@ async def get_flies(files: List[bytes] = File(...)):
         "file":len(files)
     }
 
-@getFile.post("/uploadFile")
-async def get_file1(file:UploadFile):
-    print("file1",file)
+@getFile.post("/file_uploadFile")
+async def upload_file_by_uploadfile(file:UploadFile):
+    filename = file.filename
+    content_type = file.content_type
+    content = await file.read()
 
     return{
-        "file1":file.filename
+        "filename": filename,
+        "content_type": content_type,
+        "file_size": len(content)
     }
